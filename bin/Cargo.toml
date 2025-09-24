@@ -1,0 +1,9 @@
+[package]
+name = "bin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+storage = { path = "../storage" }
+http = { path = "../http" }
+grpc = { path = "../grpc" }

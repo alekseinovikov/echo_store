@@ -1,6 +1,14 @@
-[package]
-name = "echo_store"
+[workspace]
+resolver = "3"
+members = [
+    "bin",
+    "storage",
+    "http",
+    "grpc"
+]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[workspace.dependencies]

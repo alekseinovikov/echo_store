@@ -3,5 +3,28 @@
 version = 4
 
 [[package]]
-name = "echo_store"
+name = "bin"
+version = "0.1.0"
+dependencies = [
+ "grpc",
+ "http",
+ "storage",
+]
+
+[[package]]
+name = "grpc"
+version = "0.1.0"
+dependencies = [
+ "storage",
+]
+
+[[package]]
+name = "http"
+version = "0.1.0"
+dependencies = [
+ "storage",
+]
+
+[[package]]
+name = "storage"
 version = "0.1.0"
