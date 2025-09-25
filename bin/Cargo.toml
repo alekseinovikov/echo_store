@@ -7,3 +7,5 @@ edition = "2024"
 storage = { path = "../storage" }
 http = { path = "../http" }
 grpc = { path = "../grpc" }
+
+serde_json = {workspace = true}
